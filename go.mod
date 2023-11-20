@@ -1,13 +1,6 @@
 module prepare
 
-go 1.17
-
-require (
-	github.com/gorhill/cronexpr v0.0.0-20180427100037-88b0669f7d75
-	go.etcd.io/etcd/api/v3 v3.5.2
-	go.etcd.io/etcd/client/v3 v3.5.2
-	go.mongodb.org/mongo-driver v1.8.3
-)
+go 1.18
 
 require (
 	github.com/coreos/go-semver v0.3.0 // indirect

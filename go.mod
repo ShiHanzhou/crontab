@@ -1,6 +1,8 @@
-module prepare
 
-go 1.18
+
+go 1.19
+
+//A component required a bean of type 'com.kuaishou.is.inf.search.common.client.SearchClient' that could not be found.
 
 require (
 	github.com/coreos/go-semver v0.3.0 // indirect
